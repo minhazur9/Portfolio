@@ -11,6 +11,7 @@ body {
     min-width: 100vw;
     background-color: #007ACC;
     height: 4em;
+    z-index: 2;
 }
 
 .nav-link {
@@ -35,10 +36,18 @@ body {
 }
 
 .greeting {
+    opacity: 0%;
+    display: inline-block;
     position: relative;
     text-align: center;
     top: 300px;
-    font-family: 'Roboto', sans-serif;
+    left: 35vw;
+    border: solid black 4px;
+    padding: 20px;
+    animation-name: fadeIn;
+    animation-duration: 1.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .greet-hello {
@@ -46,7 +55,7 @@ body {
     position: relative;
     animation-name: fadeIn;
     animation-duration: 1.8s;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
