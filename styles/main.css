@@ -7,6 +7,8 @@ body {
 }
 
 .nav {
+    position: fixed;
+    min-width: 100vw;
     background-color: #007ACC;
     height: 4em;
 }
@@ -35,7 +37,8 @@ body {
 .greeting {
     position: relative;
     text-align: center;
-    top: 150px;
+    top: 300px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .greet-hello {
@@ -54,4 +57,15 @@ body {
     animation-duration: 1s;
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
+}
+
+.skills {
+    position: relative;
+    max-width: 900px;
+    top: 650px;
+    left: 400px;
+}
+
+.skills-title {
+    text-decoration: solid underline #31383F;
 }
