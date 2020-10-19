@@ -74,7 +74,7 @@ body {
 .skills {
     position: relative;
     max-width: 60vw;
-    top: 200vh;
+    top: 110vh;
     left: 20vw;
 }
 
@@ -84,14 +84,17 @@ body {
 
 .about {
     position: relative;
-    top: 100vh;
+    top: 80vh;
     left: 20vw;
+    overflow-wrap: break-word;
+    max-width: 70vw;
 }
 
 .about-name {
     text-decoration: solid underline #31383F;
+    font-size: 40px;
 }
 
 .about-desc {
-    font-size: 20px;
+    font-size: 25px;
 }
