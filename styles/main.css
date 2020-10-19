@@ -157,3 +157,23 @@ body {
     font-size: 20px;
     margin-top: 10px;
 }
+
+.github {
+    position: relative;
+    font-size: 100px;
+    left: 750px;
+    bottom: 250px;
+    color: black
+}
+
+.github:hover {
+    color: grey
+}
+
+.linkedIn {
+    position: relative;
+    font-size: 100px;
+    left: 830px;
+    bottom: 250px;
+    color: #0077B5
+}
