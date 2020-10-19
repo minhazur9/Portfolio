@@ -4,6 +4,7 @@
 
 body {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -48,6 +49,8 @@ body {
     animation-duration: 1.8s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
+    width: 30%;
+    height: 10%
 }
 
 .greet-hello {
@@ -70,11 +73,25 @@ body {
 
 .skills {
     position: relative;
-    max-width: 900px;
-    top: 650px;
-    left: 400px;
+    max-width: 60vw;
+    top: 200vh;
+    left: 20vw;
 }
 
 .skills-title {
     text-decoration: solid underline #31383F;
+}
+
+.about {
+    position: relative;
+    top: 100vh;
+    left: 20vw;
+}
+
+.about-name {
+    text-decoration: solid underline #31383F;
+}
+
+.about-desc {
+    font-size: 20px;
 }
