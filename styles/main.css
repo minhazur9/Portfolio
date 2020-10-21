@@ -156,7 +156,8 @@ body {
     left: 20vw;
     margin-bottom: 20px;
     background-color: #968BFC;
-    margin-left: -20vw
+    margin-left: -20vw;
+    padding-top: 10vh
 }
 
 .contact-title {
@@ -197,6 +198,10 @@ body {
     left: 830px;
     bottom: 250px;
     color: #0077B5
+}
+
+#resume {
+    font-size: 20px;
 }
 
 
