@@ -84,10 +84,10 @@ body {
 }
 
 .about {
-    position: relative;
-    top: 80vh;
-    left: 20vw;
+    top: 0;
+    left: 0;
     max-width: 70vw;
+    margin-left: 300px;
 }
 
 .about-name {
@@ -176,4 +176,9 @@ body {
     left: 830px;
     bottom: 250px;
     color: #0077B5
+}
+
+.about-container {
+    position: relative;
+    top: 80vh;
 }
