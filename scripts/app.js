@@ -9,3 +9,8 @@ $('.nav-item').on('click', function() {
     $('.nav-item').removeClass('active')
     $(this).addClass('active')   
 }) 
+
+$(window).on('scroll', function() {
+    const body = $('html')
+    console.log(body.offset())
+})

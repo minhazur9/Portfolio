@@ -50,7 +50,7 @@ body {
     animation-duration: 1.8s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    width: 30%;
+    min-width: 20vw;
     height: 10%
 }
 
@@ -73,12 +73,19 @@ body {
 }
 
 .skills {
-    position: relative;
     max-width: 60vw;
-    top: 110vh;
-    left: 20vw;
+    margin-left: 20vw;
 }
 
+.skills-container {
+    position: relative;
+    top: 110vh;
+    left: 20vw;
+    background-color: #30F080;
+    margin-left: -310px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 .skills-title {
     text-decoration: solid underline #31383F;
 }
@@ -87,7 +94,15 @@ body {
     top: 0;
     left: 0;
     max-width: 70vw;
-    margin-left: 300px;
+    margin-left: 20vw;
+}
+
+.about-container {
+    position: relative;
+    top: 80vh;
+    background-color: #15E0EB;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .about-name {
@@ -132,10 +147,16 @@ body {
 }
 
 .contact {
+    margin-left: 20vw
+}
+
+.contact-container {
     position: relative;
     top: 180vh;
     left: 20vw;
     margin-bottom: 20px;
+    background-color: #968BFC;
+    margin-left: -20vw
 }
 
 .contact-title {
@@ -178,7 +199,4 @@ body {
     color: #0077B5
 }
 
-.about-container {
-    position: relative;
-    top: 80vh;
-}
+
