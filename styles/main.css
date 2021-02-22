@@ -1,13 +1,12 @@
 * {
     font-family: 'Roboto', sans-serif;
     overflow-wrap: break-word;
-    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    overflow-y:hidden;
+    overflow-y:scroll;
 }
 
 .nav {
