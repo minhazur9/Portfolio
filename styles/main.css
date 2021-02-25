@@ -124,11 +124,14 @@ body {
 
 .projects-title {
     text-decoration: solid underline #31383F; 
+    position: relative;
+    bottom: 120px;
 }
 
 .projects-list-item {
     position: relative;
     margin-top: 50px;
+    bottom: 120px;
 }
 
 .projects-desc {
@@ -139,8 +142,14 @@ body {
 
 .projects-picture {
     position: relative;
-    width: 70%;
+    width: 50%;
     left: 20vw;
+    bottom: 120px;
+}
+
+.toga {
+    position: relative;
+    bottom: 40px;
 }
 
 .live-link:hover {
@@ -148,44 +157,33 @@ body {
 }
 
 .contact {
-    margin-left: 20vw
+    margin-left: 20vw;
+    position:relative;
 }
 
 .contact-container {
     position: relative;
-    top: 180vh;
+    top: 145vh;
     left: 20vw;
     margin-bottom: 20px;
     background-color: #968BFC;
     margin-left: -20vw;
-    padding-top: 10vh
+    padding-top: 10vh;
 }
 
 .contact-title {
+    position: relative;
     text-decoration: solid underline #31383F; 
-}
-
-.contact-fields {
-    margin-top: 20px;
-}
-
-.contact-input {
-    font-size: 30px;
-    background-color: #FFFFE6;
-    display: block;
-    margin-top: 10px;
-}
-
-.contact-input-button {
-    font-size: 20px;
-    margin-top: 10px;
+    left: 450px;
+    font-size: 25px;
+    bottom: 50px;
 }
 
 .github {
     position: relative;
-    font-size: 100px;
-    left: 750px;
-    bottom: 250px;
+    font-size: 50px;
+    /* left: 750px;
+    bottom: 250px; */
     color: black
 }
 
@@ -195,14 +193,35 @@ body {
 
 .linkedIn {
     position: relative;
-    font-size: 100px;
-    left: 830px;
-    bottom: 250px;
+    font-size: 50px;
+    /* left: 830px;
+    bottom: 250px; */
     color: #0077B5
 }
 
 #resume {
     font-size: 20px;
+}
+
+.envelope {
+    position: relative;
+    color:#da1f1f;
+    font-size: 50px;
+    /* left: 650px;
+    bottom: 250px; */
+}
+
+.envelope:hover {
+    color:#af1919;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    width: 300px;
+    justify-content: space-around;
+    left: 360px;
+    bottom: 40px;
 }
 
 

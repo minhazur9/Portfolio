@@ -11,8 +11,9 @@ $('.nav-item').on('click', function () {
 })
 
 $(window).on('scroll', function () {
+    console.log(window.pageYOffset)
     $('.nav-item').removeClass('active')
-    if (window.pageYOffset >= $('.contact').offset().top - 350) $('#contact').addClass('active')
+    if (window.pageYOffset >= $('.contact').offset().top - 800) $('#contact').addClass('active')
     else if (window.pageYOffset >= $('.projects').offset().top - 350) $('#projects').addClass('active')
     else if (window.pageYOffset >= $('.skills').offset().top - 350) $('#skills').addClass('active')
     else if (window.pageYOffset >= $('.about').offset().top - 350) $('#about').addClass('active')
