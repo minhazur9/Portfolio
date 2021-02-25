@@ -11,10 +11,11 @@ body {
 
 .nav {
     position: fixed;
-    min-width: 100vw;
+    min-width: 100%;
     background-color: #007ACC;
     height: 4em;
     z-index: 2;
+
 }
 
 .nav-link {
@@ -44,14 +45,14 @@ body {
     position: relative;
     text-align: center;
     top: 300px;
-    left: 35vw;
+    left: 35%;
     border: solid black 4px;
     padding: 20px;
     animation-name: fadeIn;
     animation-duration: 1.8s;
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
-    min-width: 20vw;
+    min-width: 20%;
     height: 10%
 }
 
@@ -126,6 +127,7 @@ body {
     background-color: #15E0EB;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    width: 100%;
 }
 
 .about-name {
@@ -245,5 +247,56 @@ body {
     left: 360px;
     bottom: 40px;
 }
+
+@media only screen and (max-width: 1500px) {
+    .about-container {
+        min-width: 120%
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .projects-list-item {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .projects-desc {
+        font-size: 10px;
+    }
+    .projects-picture {
+        position: relative;
+        bottom: 50px;
+        width: 20%; 
+    }
+    .about-container {
+        min-width: 120%
+    }
+    .contact-title {
+        left: 300px;
+    }
+    .icons {
+        left: 210px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .projects-picture {
+        position: relative;
+        bottom: 50px;
+        width: 20%; 
+        margin-left: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+      .contact-title {
+          left: 200px;
+      }
+      .icons {
+          left: 120px
+      }
+      .frameworks {
+          display: block;
+      }
+  }
 
 
