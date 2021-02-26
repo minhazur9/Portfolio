@@ -7,6 +7,7 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     overflow-y:scroll;
+    max-width: 100%;
 }
 
 .nav {
@@ -259,8 +260,14 @@ body {
         margin-top: 0;
         font-size: 15px;
     }
+    .about-desc {
+        font-size: 20px;
+    }
     .projects-desc {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    .skill {
+        font-size: 15px;
     }
     .projects-picture {
         position: relative;
@@ -279,15 +286,13 @@ body {
   }
 
   @media only screen and (max-width: 1000px) {
-    .projects-picture {
-        position: relative;
-        bottom: 50px;
-        width: 20%; 
-        margin-left: 100px;
-    }
-  }
-
-  @media only screen and (max-width: 900px) {
+      .greeting {
+          position: relative;
+          left: 25%;
+      }
+      .skills-grid {
+          display: block;
+      }
       .contact-title {
           left: 200px;
       }
@@ -296,6 +301,33 @@ body {
       }
       .frameworks {
           display: block;
+      }
+
+      .frameworks-title {
+          margin-top: 40px;
+      }
+      .projects-desc {
+          max-width: 500px;
+          text-align: center;
+      }
+      .project-name {
+          text-decoration: underline;
+      }
+      .projects-picture {
+          top: 10px;
+      }
+      .projects-list-item {
+          margin-top: 25px;
+      }
+      .projects-title {
+          left: 220px;
+      }
+      .skills-title {
+          position: relative;
+          left: 220px;
+      }
+      .languages {
+        border-right: 4px #30F080 solid;
       }
   }
 
