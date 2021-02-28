@@ -303,8 +303,18 @@ body {
           left: 20%;
       }
       .icons {
-          position: relative;
-          left: 1%
+          position: absolute;
+          bottom: 5px;
+          left: 5%
+      }
+      .github {
+          font-size: 27px;
+      }
+      .envelope {
+          font-size: 27px;
+      }
+      .linkedIn {
+          font-size: 27px;
       }
       .frameworks {
           display: block;
@@ -337,6 +347,12 @@ body {
       }
       .languages {
         border-right: 4px #30F080 solid;
+      }
+      .nav {
+          height: 5%;
+      }
+      .nav-link {
+          font-size: 11.5px;
       }
   }
 
