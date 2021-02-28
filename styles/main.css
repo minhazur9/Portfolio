@@ -290,14 +290,21 @@ body {
           position: relative;
           left: 25%;
       }
+      .greet-hello {
+          font-size: 15px;
+      }
+      .greet-position {
+          font-size: 10px;
+      }
       .skills-grid {
           display: block;
       }
       .contact-title {
-          left: 200px;
+          left: 20%;
       }
       .icons {
-          left: 120px
+          position: relative;
+          left: 1%
       }
       .frameworks {
           display: block;
@@ -315,16 +322,18 @@ body {
       }
       .projects-picture {
           top: 10px;
+          width: 50%;
+          margin: 0 auto;
       }
       .projects-list-item {
           margin-top: 25px;
       }
       .projects-title {
-          left: 220px;
+          text-align: center;
       }
       .skills-title {
           position: relative;
-          left: 220px;
+          text-align: center;
       }
       .languages {
         border-right: 4px #30F080 solid;
