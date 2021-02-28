@@ -3,6 +3,10 @@
     overflow-wrap: break-word;
 }
 
+.mobile {
+    overflow-x: hidden;
+}
+
 body {
     min-height: 100vh;
     overflow-x: hidden;
